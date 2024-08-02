@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>Drowsiness</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item">Menu</h3>
+  <a href="home" class="w3-bar-item w3-button">Home</a>
+  <a href="image" class="w3-bar-item w3-button">Detect Accident</a>
+  <a href="video" class="w3-bar-item w3-button">Driver Monitoring</a>
+  <a href="video1" class="w3-bar-item w3-button">Video Accident Detection</a>
+
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="w3-container w3-light-blue">
+  <h1>Accident Detection & avoidance System Using Image Processing</h1>
+</div>
+
+{% block content %}
+{% endblock %}
+
+
+
+<!-- Footer-->
+<div class="w3-container w3-light-blue">
+  <div class="w3-container w3-cell w3-mobile" style="width:85%">
+    <h5>Developed By</h5>
+    <div class="w3-container w3-cell">
+      <p>Kamble Sahil Raju</p>
+      <p>Patil Mahesh Sharad</p>
+    </div>
+    <div class="w3-container w3-cell">
+      <p>Shelke Rushikesh </p>
+      <p>Prashik Bhowate</p>
+    </div>
+  </div>
+  <div class="w3-container w3-cell w3-mobile">
+    <h5>Guided By</h5>
+    <p>Prof. Aparna Mote</p>
+  </div>
+  </div>
+
+</div>
+      
+</body>
+</html>
